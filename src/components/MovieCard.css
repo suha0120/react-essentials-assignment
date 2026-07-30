@@ -1,0 +1,46 @@
+.movie-card {
+  width: 260px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+  transition: 0.3s;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-image {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+}
+
+.movie-content {
+  padding: 15px;
+}
+
+.movie-content h3 {
+  margin-bottom: 10px;
+}
+
+.movie-content p {
+  margin: 6px 0;
+}
+
+.favorite-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-top: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #0d6efd;
+  color: white;
+  font-size: 15px;
+}
+
+.favorite-btn.active {
+  background: crimson;
+}
